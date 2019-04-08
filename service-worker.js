@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/laura-mso/first-react-travel/precache-manifest.52fb269b91fd6118f2ec1d62aa636239.js"
+  "/first-react-travel/precache-manifest.a8f53362678e80d212591f6be885230b.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/laura-mso/first-react-travel/index.html", {
+workbox.routing.registerNavigationRoute("/first-react-travel/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
