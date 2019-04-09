@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "2285ba4216cf730a259a",
-    "url": "/first-react-travel/static/css/main.bd105454.chunk.css"
+    "revision": "1a5765cc3b27560ab630",
+    "url": "/first-react-travel/static/css/main.a7ef6d01.chunk.css"
   },
   {
-    "revision": "2285ba4216cf730a259a",
-    "url": "/first-react-travel/static/js/main.5c8e59c9.chunk.js"
+    "revision": "1a5765cc3b27560ab630",
+    "url": "/first-react-travel/static/js/main.df43e028.chunk.js"
   },
   {
     "revision": "6ab0ef81648b30fe5ee7",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/first-react-travel/static/media/logo.5d5d9eef.svg"
   },
   {
-    "revision": "5b61c2ebafa15140ca8bca315abbe3cb",
+    "revision": "148595a4cda229569426008799d67091",
     "url": "/first-react-travel/index.html"
   }
 ];
