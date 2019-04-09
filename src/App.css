@@ -17,6 +17,7 @@
 	justify-content: center;
 	font-size: calc(10px + 2vmin);
 	color: white;
+	margin-bottom: 70px;
 }
 
 .App-link {
@@ -33,5 +34,5 @@
 }
 
 img {
-	height: 300px;
+	width: 400px;
 }
