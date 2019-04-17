@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "e1939cd828d6bd84a03a",
-    "url": "/wcs-first-react-travel/static/css/main.1aa54dbf.chunk.css"
+    "revision": "731721c3324ffd4f2b64",
+    "url": "/wcs-first-react-travel/static/css/main.b68ac39b.chunk.css"
   },
   {
-    "revision": "e1939cd828d6bd84a03a",
+    "revision": "731721c3324ffd4f2b64",
     "url": "/wcs-first-react-travel/static/js/main.ea1f1ea3.chunk.js"
   },
   {
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/wcs-first-react-travel/static/media/logo.5d5d9eef.svg"
   },
   {
-    "revision": "bee8feb228afbb514659653fd8e51fc8",
+    "revision": "89375776ac0b5806ea3ecd47a709d625",
     "url": "/wcs-first-react-travel/index.html"
   }
 ];
