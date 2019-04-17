@@ -1,14 +1,14 @@
 {
-  "main.css": "/first-react-travel/static/css/main.a7ef6d01.chunk.css",
-  "main.js": "/first-react-travel/static/js/main.df43e028.chunk.js",
-  "main.js.map": "/first-react-travel/static/js/main.df43e028.chunk.js.map",
-  "runtime~main.js": "/first-react-travel/static/js/runtime~main.63351ab4.js",
-  "runtime~main.js.map": "/first-react-travel/static/js/runtime~main.63351ab4.js.map",
-  "static/js/2.6efc73d3.chunk.js": "/first-react-travel/static/js/2.6efc73d3.chunk.js",
-  "static/js/2.6efc73d3.chunk.js.map": "/first-react-travel/static/js/2.6efc73d3.chunk.js.map",
-  "index.html": "/first-react-travel/index.html",
-  "precache-manifest.42c92d5fbaf21101f399fe0ebdc704c3.js": "/first-react-travel/precache-manifest.42c92d5fbaf21101f399fe0ebdc704c3.js",
-  "service-worker.js": "/first-react-travel/service-worker.js",
-  "static/css/main.a7ef6d01.chunk.css.map": "/first-react-travel/static/css/main.a7ef6d01.chunk.css.map",
-  "static/media/logo.svg": "/first-react-travel/static/media/logo.5d5d9eef.svg"
+  "main.css": "/wcs-first-react-travel/static/css/main.1aa54dbf.chunk.css",
+  "main.js": "/wcs-first-react-travel/static/js/main.ea1f1ea3.chunk.js",
+  "main.js.map": "/wcs-first-react-travel/static/js/main.ea1f1ea3.chunk.js.map",
+  "runtime~main.js": "/wcs-first-react-travel/static/js/runtime~main.096678c7.js",
+  "runtime~main.js.map": "/wcs-first-react-travel/static/js/runtime~main.096678c7.js.map",
+  "static/js/2.6e39e941.chunk.js": "/wcs-first-react-travel/static/js/2.6e39e941.chunk.js",
+  "static/js/2.6e39e941.chunk.js.map": "/wcs-first-react-travel/static/js/2.6e39e941.chunk.js.map",
+  "index.html": "/wcs-first-react-travel/index.html",
+  "precache-manifest.c103a20a0bbbe64d1ff2165a1904a0f9.js": "/wcs-first-react-travel/precache-manifest.c103a20a0bbbe64d1ff2165a1904a0f9.js",
+  "service-worker.js": "/wcs-first-react-travel/service-worker.js",
+  "static/css/main.1aa54dbf.chunk.css.map": "/wcs-first-react-travel/static/css/main.1aa54dbf.chunk.css.map",
+  "static/media/logo.svg": "/wcs-first-react-travel/static/media/logo.5d5d9eef.svg"
 }

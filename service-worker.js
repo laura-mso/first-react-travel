@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/first-react-travel/precache-manifest.42c92d5fbaf21101f399fe0ebdc704c3.js"
+  "/wcs-first-react-travel/precache-manifest.c103a20a0bbbe64d1ff2165a1904a0f9.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/first-react-travel/index.html", {
+workbox.routing.registerNavigationRoute("/wcs-first-react-travel/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
