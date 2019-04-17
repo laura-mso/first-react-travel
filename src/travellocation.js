@@ -1,4 +1,5 @@
 import React from "react";
+import "./App.css";
 
 const locations = [
   {
@@ -42,11 +43,11 @@ const Location = () => (
   <div>
     {locations.map((locations, index) => (
       <React.Fragment>
+        <hr id="Line" />
         <h2 key={index}>{locations.destination}</h2>
         <h3>{locations.country}</h3>
         <img src={locations.photo} alt={locations.destination} />
         <p>{locations.distance} km from Berlin</p>
-        <hr />
       </React.Fragment>
     ))}
   </div>
