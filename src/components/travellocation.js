@@ -1,5 +1,5 @@
 import React from "react";
-import "./App.css";
+import "../App.css";
 
 const locations = [
   {
@@ -46,7 +46,11 @@ const Location = () => (
         <hr id="Line" />
         <h2 key={index}>{locations.destination}</h2>
         <h3>{locations.country}</h3>
-        <img src={locations.photo} alt={locations.destination} />
+        <img
+          className="travelphoto"
+          src={locations.photo}
+          alt={locations.destination}
+        />
         <p>{locations.distance} km from Berlin</p>
       </React.Fragment>
     ))}

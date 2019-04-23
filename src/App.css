@@ -6,6 +6,11 @@
   width: 50%;
 }
 
+#hrfooter {
+  border: 3px solid black;
+  margin: 100px 0px;
+}
+
 .Button {
   margin-bottom: 70px;
 }
@@ -52,6 +57,10 @@ button:hover {
   }
 }
 
-img {
+.travelphoto {
   width: 400px;
+}
+
+.simpsonsimage {
+  height: 200px;
 }
