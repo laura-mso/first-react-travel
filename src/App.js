@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import "./App.css";
-import Button from "./Button";
-
-import Location from "./travellocation";
+import Button from "./components/Button";
+import Location from "./components/travellocation";
+import SimpsonsAPI from "./components/SimpsonsAPI";
 
 class App extends Component {
   render() {
@@ -12,6 +12,7 @@ class App extends Component {
         <div className="Travelsection">
           <Location />
         </div>
+        <SimpsonsAPI />
       </div>
     );
   }
