@@ -1,9 +1,11 @@
 import React from "react";
 
-const GenerateQuote = ({ selectQuote }) => {
+const GenerateQuote = ({ getQuote }) => {
   return (
     <div className="GenerateQuote">
-      <button onClick={selectQuote}>Get a new quote</button>
+      <button className="Button" onClick={getQuote}>
+        Get a new quote
+      </button>
     </div>
   );
 };
