@@ -1,44 +1,34 @@
 import React, { Component } from "react";
+import { Route, BrowserRouter, Switch, NavLink } from "react-router-dom";
+import Home from "./components/Home";
+import Contact from "./components/Contact";
 import "./App.css";
-import Button from "./components/Button";
-import Location from "./components/travellocation";
-import SimpsonsAPI from "./components/SimpsonsAPI";
-import GenerateQuote from "./components/GenerateQuote";
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      quotes: {}
-    };
-    this.selectQuote = this.selectQuote.bind(this);
-  }
-
-  selectQuote() {
-    fetch("https://thesimpsonsquoteapi.glitch.me/quotes")
-      .then(res => res.json())
-      .then(json => {
-        this.setState({
-          isLoaded: true,
-          quotes: json[0]
-        });
-      });
-  }
-
-  componentDidMount() {
-    this.selectQuote();
-  }
-
   render() {
     return (
-      <div className="App">
-        <Button />
-        <div className="Travelsection">
-          <Location />
+      <BrowserRouter>
+        <div className="navigation">
+          <NavLink
+            exact
+            to="/wcs-first-react-travel"
+            activeClassName="navactive"
+          >
+            {" "}
+            Home{" "}
+          </NavLink>
+          <NavLink to="/contact" activeClassName="navactive">
+            {" "}
+            Contact{" "}
+          </NavLink>
         </div>
-        <SimpsonsAPI quotes={this.state.quotes} />
-        <GenerateQuote getQuote={this.selectQuote} />
-      </div>
+        <div>
+          <Switch>
+            <Route path="/wcs-first-react-travel" component={Home} />
+            <Route path="/contact" component={Contact} />
+          </Switch>
+        </div>
+      </BrowserRouter>
     );
   }
 }

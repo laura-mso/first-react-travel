@@ -2,6 +2,26 @@
   text-align: center;
 }
 
+.navactive {
+  color: fuchsia;
+}
+
+a {
+  color: white;
+  margin-right: 2rem;
+}
+
+.navigation {
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  text-transform: uppercase;
+}
+
+.homepagelink {
+  color: rgb(40, 44, 52);
+}
+
 #Line {
   width: 50%;
 }

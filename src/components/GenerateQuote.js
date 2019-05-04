@@ -9,5 +9,4 @@ const GenerateQuote = ({ getQuote }) => {
     </div>
   );
 };
-
 export default GenerateQuote;
