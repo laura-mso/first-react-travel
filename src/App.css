@@ -2,6 +2,26 @@
   text-align: center;
 }
 
+.navactive {
+  color: fuchsia;
+}
+
+a {
+  color: white;
+  margin-right: 2rem;
+}
+
+.navigation {
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  text-transform: uppercase;
+}
+
+.homepagelink {
+  color: rgb(40, 44, 52);
+}
+
 #Line {
   width: 50%;
 }
@@ -63,4 +83,35 @@ button:hover {
 
 .simpsonsimage {
   height: 200px;
+}
+
+.FormEmployee {
+  width: 400px;
+  margin: 20px auto;
+  text-align: left;
+}
+
+.FormEmployee h1 {
+  text-align: center;
+}
+
+.FormEmployee .form-data {
+  display: flex;
+  justify-content: center;
+  margin: 5px 0;
+}
+
+.FormEmployee .form-data label {
+  display: inline-block;
+  width: 100px;
+  margin-right: 10px;
+  text-align: right;
+}
+
+.FormEmployee .form-data input:not([type="submit"]) {
+  flex-grow: 1;
+}
+
+fieldset {
+  margin-bottom: 100px;
 }
