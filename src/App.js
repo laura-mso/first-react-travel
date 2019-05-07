@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Route, BrowserRouter, Switch, NavLink } from "react-router-dom";
 import Home from "./components/Home";
-import Contact from "./components/Contact";
+import FavoriteFilm from "./components/FavoriteFilm";
 import "./App.css";
 
 class App extends Component {
@@ -17,15 +17,15 @@ class App extends Component {
             {" "}
             Home{" "}
           </NavLink>
-          <NavLink to="/contact" activeClassName="navactive">
+          <NavLink to="/film" activeClassName="navactive">
             {" "}
-            Contact{" "}
+            Favorite Movie{" "}
           </NavLink>
         </div>
         <div>
           <Switch>
             <Route path="/wcs-first-react-travel" component={Home} />
-            <Route path="/contact" component={Contact} />
+            <Route path="/film" component={FavoriteFilm} />
           </Switch>
         </div>
       </BrowserRouter>

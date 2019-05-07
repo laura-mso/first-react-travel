@@ -4,6 +4,7 @@ import Button from "./Button";
 import Location from "./travellocation";
 import SimpsonsAPI from "./SimpsonsAPI";
 import GenerateQuote from "./GenerateQuote";
+import Timer from "./Timer";
 
 class Home extends Component {
   constructor(props) {
@@ -32,7 +33,9 @@ class Home extends Component {
   render() {
     return (
       <div className="App">
+        <Timer />
         <Button />
+
         <div className="Travelsection">
           <Location />
         </div>
